@@ -12,7 +12,6 @@
       rel="stylesheet"
     />
 
-    
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
@@ -24,6 +23,8 @@
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
+    <!--Header-->
+
     <header class="header">
       <div class="container header-container">
         <a class="logo" href="./index.html">
@@ -51,22 +52,39 @@
       </div>
     </header>
     <main>
-      <section>
-        <h1>The Sky Is The Limit</h1>
-        <p>We provide world class financial assistance</p>
-        <button type="button">Read More</button>
+      <!--Section Hero-->
+      <section class="hero-section">
+        <div class="hero-container container">
+          <h1 class="hero-title">The Sky Is The Limit</h1>
+          <p class="hero-text">We provide world class financial assistance</p>
+          <button type="button" class="hero-btn">
+            <span class="symbol-span"
+              >&gt;
+              <!--тут буде svg картинка--></span
+            >Read More
+          </button>
+        </div>
       </section>
-      <section>
-        <img src="./images/imageTwoSection.jpg" alt="team pictures" />
-        <p>What you are looking for</p>
-        <h2>We provide bespoke solutions</h2>
-        <p>
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptate,
-          ipsum dignissimos quae laudantium asperiores nam aliquid impedit harum
-          illum dolore explicabo ab dolores itaque rerum temporibus doloribus
-          iste maiores deleniti?
-        </p>
-        <button type="button">Read More</button>
+      <!--Seection about-->
+      <section class="section-about">
+        <div class="container about-container">
+          <img
+            class="about-img"
+            src="./images/imageTwoSection.jpg"
+            alt="team pictures"
+          />
+          <div class="container-info">
+            <p class="about-text">What you are looking for</p>
+            <h2 class="about-title">We provide bespoke solutions</h2>
+            <p class="text">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+              Voluptate, ipsum dignissimos quae laudantium asperiores nam
+              aliquid impedit harum illum dolore explicabo ab dolores itaque
+              rerum temporibus doloribus iste maiores deleniti?
+            </p>
+            <button class="about-btn" type="button">Read More</button>
+          </div>
+        </div>
       </section>
       <section></section>
       <section>
@@ -82,6 +100,7 @@
         <img src="./images/desktop.jpg" alt="desktop" />
       </section>
       <section></section>
+      <!--team-section-->
       <section class="team-section">
         <p>Who we are</p>
         <h2 class="team-title">Our Professional Team</h2>

@@ -9,6 +9,7 @@ body {
   color: var(--main-text-color);
   font-family: Open Sans;
   font-size: 18px;
+ 
 }
 a {
   text-decoration: none;
@@ -21,22 +22,31 @@ ol {
   padding: 0;
 }
 
+h1,h2,h3,h4,h5,h6,p{
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
 /* HEADER */
 
 .header {
-  background-color: black;
-
+margin-bottom: -70px;
 }
+
+
+
 .container {
     margin: 0 auto;
     width: 1360px;
 }
+
+
 .header-container {
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 0 28px;
-
+    /*outline: 1px dotted red;*/
 }
 .logo {
   color: var(--main-text-color);
@@ -63,4 +73,101 @@ gap: 40px;
 line-height: 1.56; 
 padding: 20px 0;
 display: block;
+}
+
+
+/*hero-section*/
+ .hero-section{
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.10) 0%, rgba(0, 0, 0, 0.10) 100%), url(../images/Rectangle.jpg), lightgray 50% / cover no-repeat;
+ height: 768px;
+ padding-top: 292px;
+ max-width: 1360px;
+ margin-left: auto;
+ margin-right: auto;
+}
+
+
+
+
+.hero-title{
+  color: #E9E9E9;
+    text-align: center;
+    font-size: 55px;
+    font-weight: 300;
+    line-height: 1.2;
+    margin-bottom: 24px;
+}
+
+.hero-text{
+  color: #E9E9E9;
+    text-align: center;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 1.6;
+   margin-bottom: 41px;
+}
+
+.hero-btn{
+  color: #FFF;
+    text-align: center;
+    font-size: 18px;
+    line-height: 1.5;
+  border-radius: 5px;
+  background: #28A745;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 9px 28px 10px 30px;
+  border: none;
+}
+/*тут буде svg картинка*/
+.symbol-span{
+  margin-right: 4px;
+  width: 9px;
+  height: 18px;
+  text-align: center;
+}
+
+
+/*Section About*/
+
+.about-container{
+  display: flex;
+}
+
+.container-info{
+  padding-left: 20px;
+  padding-top: 80px;
+  padding-right: 64px;
+background:var(--accent-text-color);
+}
+
+.about-text{
+  color: #FFF;
+    font-size: 20px;
+    line-height: 1.6;
+   margin-bottom: 8px;
+}
+
+.about-title{
+  color: #FFF;
+    font-size: 38px;
+    font-weight: 300;
+    line-height: 1.2;
+    margin-bottom: 24px;
+}
+
+.container-info>.text{
+  color: #FFF;
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 24px;
+}
+
+.about-btn{
+  border-radius: 5px;
+    border: 1px solid #FFF;
+    padding: 11px 35px 12px 34px;
+    background-color: transparent;
+    color:var(--main-text-color);
 }
