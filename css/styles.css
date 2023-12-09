@@ -30,7 +30,7 @@ h1,h2,h3,h4,h5,h6,p{
 /* HEADER */
 
 .header {
-margin-bottom: -70px;
+position: relative;
 }
 
 
@@ -46,6 +46,9 @@ margin-bottom: -70px;
     align-items: center;
     justify-content: space-between;
     padding: 0 28px;
+    position: absolute;
+left: 0%;
+right: 0%;
     /*outline: 1px dotted red;*/
 }
 .logo {
@@ -58,7 +61,7 @@ margin-bottom: -70px;
   color: var(--accent-text-color);
 }
 
-.nav {
+.nav{
 }
 .header-list {
 display: flex;
@@ -77,13 +80,14 @@ display: block;
 
 
 /*hero-section*/
- .hero-section{
+.hero-section{
   background: linear-gradient(0deg, rgba(0, 0, 0, 0.10) 0%, rgba(0, 0, 0, 0.10) 100%), url(../images/Rectangle.jpg), lightgray 50% / cover no-repeat;
  height: 768px;
  padding-top: 292px;
  max-width: 1360px;
  margin-left: auto;
  margin-right: auto;
+ 
 }
 
 
